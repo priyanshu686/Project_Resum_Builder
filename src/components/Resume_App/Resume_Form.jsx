@@ -5,7 +5,7 @@ function ResumeForm({ onPreview, resumeData, setResumeData}) {
     const previewResume = () => {
         onPreview();
     };
-
+    
     return (
         <div className="Resume-container">
             <h1>Resume Maker</h1>
